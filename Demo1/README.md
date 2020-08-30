@@ -32,7 +32,7 @@ MESSAGE(FATAL_ERROR "test 6 " ${NAME})  立即终止所有cmake过程
 * make 如果想要获取详细信息 make VERBOSE=1
 * make clean 对构建结果进行清理
 * ./hello
-### 外部构建(out-source build) 直接在build目录下构建
+### 外部构建(out-of-source build) 直接在build目录下构建
 * mkdir build && cd build
 * cmake ..
 * make VERBOSE=1
